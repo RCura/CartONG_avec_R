@@ -40,9 +40,9 @@ Un autre _package_, **ggmap**, permet de récuperer et d'afficher une image de f
 # On charge le package
 library(ggmap)
 # On récupère la carte OSM d'après la variable d'emprise
-maCarte <- ggmap(get_map(location = bbox_Tamatave, maptype = 'toner', source = 'stamen'), extent = 'device', legend = 'right',padding = 10)
+fondDeCarte <- ggmap(get_map(location = bbox_Tamatave, maptype = 'toner', source = 'stamen'), extent = 'device', legend = 'right',padding = 10)
 # Et on peut l'afficher
-maCarte
+fondDeCarte
 ```
 
 ## Ajout des aménités

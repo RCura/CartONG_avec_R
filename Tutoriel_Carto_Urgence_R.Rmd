@@ -223,6 +223,9 @@ Via l'utilisation de la bibliothèque logicielle [GDAL/OGR](http://www.gdal.org/
 library(rgdal)
 # liste des formats supportés
 as.character(ogrDrivers()[ogrDrivers()[,2],1])
+```
+
+```{r, echo=TRUE, cache=TRUE, message=FALSE, warning=FALSE, eval=FALSE}
 # Ecriture d'un Shapefile
 writeOGR(geometries, dsn = "urgenceTamatave.shp", layer = "urgenceTamatave", driver = "ESRI Shapefile",overwrite_layer = TRUE)
 ```

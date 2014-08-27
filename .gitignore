@@ -2,5 +2,5 @@
 .Rhistory
 .RData
 ggmapTemp.png
-*_files
+*_cache
 *.html

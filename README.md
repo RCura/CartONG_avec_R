@@ -250,6 +250,7 @@ as.character(ogrDrivers()[ogrDrivers()[,2],1])
 ## [25] "WAsP"           "XLSX"
 ```
 
+
 ```r
 # Ecriture d'un Shapefile
 writeOGR(geometries, dsn = "urgenceTamatave.shp", layer = "urgenceTamatave", driver = "ESRI Shapefile",overwrite_layer = TRUE)
